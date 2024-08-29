@@ -48,7 +48,8 @@ echo "Starting the installation and configuration process..."
 # Elevate to root and execute the commands
 sudo bash <<EOF
     echo "Downloading squid3-install.sh..."
-    wget https://raw.githubusercontent.com/bosedipankar/squid-proxy-installer/master/squid3-install.sh
+    # wget https://raw.githubusercontent.com/bosedipankar/squid-proxy-installer/master/squid3-install.sh
+    wget https://raw.githubusercontent.com/serverok/squid-proxy-installer/master/squid3-install.sh -O squid3-install.sh
     
     echo "Running squid3-install.sh..."
     bash squid3-install.sh
